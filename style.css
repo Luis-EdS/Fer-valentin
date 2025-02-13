@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    max-width: auto;
+    max-height: auto;
+    font-family: 'Poppins', sans-serif;
+    display: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    text-align: justify;
+
+    background: rgb(2,2,2);
+}
+audio::-webkit-media-controls-panel{
+    width: -1vh;
+    background-color: rgb(2,2,2);
+    color-scheme:rgb(2,2,2,) ;
+    forced-color-adjust: rgb(2,2,2);
+}
+
+audio::-webkit-media-controls-play-button{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+
+
+h1{
+    color: white;
+    font-family: "Meow Script", serif;
+    font-weight: 400;
+    font-style: normal; 
+    text-align: center  ;
+    font-size: 80px;
+    text-shadow: 2px 2px palevioletred;
+
+}   
+
+p{
+    font-size: 13px;
+    line-height: 10px;
+    background: url(fersita.jpg);
+    background-attachment: center;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-attachment: center;
+    -webkit-text-fill-color: rgba(255,255,255,0.1)
+}
